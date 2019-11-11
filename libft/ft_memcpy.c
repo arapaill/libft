@@ -6,7 +6,7 @@
 /*   By: arapaill <arapaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/09 11:17:08 by arapaill          #+#    #+#             */
-/*   Updated: 2019/10/23 15:26:11 by arapaill         ###   ########.fr       */
+/*   Updated: 2019/11/08 13:51:04 by arapaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	unsigned char	*pdst;
 	unsigned char	*psrc;
 
+	if (!dst && !src)
+		return (NULL);
 	if (dst == 0)
 		return (dst);
 	pdst = dst;

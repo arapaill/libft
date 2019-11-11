@@ -6,7 +6,7 @@
 #    By: arapaill <arapaill@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/07 11:06:09 by arapaill          #+#    #+#              #
-#    Updated: 2019/10/23 15:41:58 by arapaill         ###   ########.fr        #
+#    Updated: 2019/11/08 15:25:16 by arapaill         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,7 +41,7 @@ DEPS = libft.h
 
 all: 	${NAME}
 
-${NAME}:	${OBJS}
+$(NAME):	${OBJS}
 			${LIB} ${NAME} ${OBJS}
 bonus:	${OBJSB}
 			${LIB} ${NAME} ${OBJSB}

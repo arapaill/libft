@@ -6,7 +6,7 @@
 /*   By: arapaill <arapaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/18 12:27:29 by arapaill          #+#    #+#             */
-/*   Updated: 2019/10/22 09:38:22 by arapaill         ###   ########.fr       */
+/*   Updated: 2019/11/08 11:33:01 by arapaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
-	if (s == 0 || fd == 0)
+	if (s == 0)
 		return ;
 	while (*s)
 	{

@@ -6,9 +6,11 @@
 /*   By: arapaill <arapaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/09 11:11:07 by arapaill          #+#    #+#             */
-/*   Updated: 2019/10/18 12:08:18 by arapaill         ###   ########.fr       */
+/*   Updated: 2019/11/08 13:33:57 by arapaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int		ft_isalpha(int c)
 {
